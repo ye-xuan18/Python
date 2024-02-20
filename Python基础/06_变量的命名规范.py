@@ -21,3 +21,7 @@
 # Animal = 1
 # print(Animal)
 
+
+# 不能使用关键字
+# for = 1
+# print(for)
