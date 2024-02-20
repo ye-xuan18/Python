@@ -106,3 +106,14 @@
 # b = bool(a)
 # print(b)
 # print(type(b))
+
+# 什么情况下是false
+print(bool(0))
+print(bool(0,0))
+print(bool(''))
+print(bool(""))
+print(bool([]))
+print(bool(()))
+print(bool({}))
+
+
