@@ -55,7 +55,7 @@ def create_request():
     request = urllib.request.Request(url=url, headers=headers)
     return request
 
-
+ 
 def get_content(request):
     response = urllib.request.urlopen(request)
     content = response.read().decode('utf-8')
